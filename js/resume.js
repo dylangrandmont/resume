@@ -11,5 +11,7 @@
   $('body').scrollspy({
     target: '#sideNav'
   });
+  
+  const test = () => {}
 
 })(jQuery); // End of use strict
