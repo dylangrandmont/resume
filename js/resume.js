@@ -12,4 +12,8 @@
     target: '#sideNav'
   });
 
+  const myMultilineArrowFunction = () => {
+    // do stuff
+  }
+
 })(jQuery); // End of use strict
