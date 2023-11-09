@@ -1,0 +1,89 @@
+::selection {
+  color: var(--palette-main-0);
+  background: var(--palette-main-5);
+}
+
+body {
+  color: var(--palette-main-6);
+  background-color: var(--palette-main-1);
+  margin: 0px;
+  padding: 32px;
+  font-family: Roboto Mono;
+}
+
+body.flex {
+  padding: unset;
+}
+.flex {
+  display: flex;
+}
+.flex.gap {
+  gap: 16px;
+}
+.sidebar {
+  position: sticky;
+  top: 16px;
+  height: fit-content;
+  background-color: var(--palette-main-1);
+  align-items: center;
+  padding: 32px;
+}
+.sidebar > h4 {
+  margin: 0px
+}
+.main {
+  background-color: var(--palette-main-0);
+  border-left: 1px solid var(--palette-main-6);
+  padding: 32px;
+  flex-grow: 1;
+}
+.main > div {
+  max-width: 880px;
+}
+.flex.column {
+  flex-direction: column;
+}
+.flex.align-center {
+  align-items: center;
+}
+.flex.align-start {
+  align-items: flex-start;
+}
+.flex.space-between {
+  justify-content: space-between;
+}
+.profile {
+  width: 140px;
+  height: auto;
+  border-radius: 100px;
+  box-sizing: border-box;
+  border: 4px solid var(--palette-main-5);
+  transition: 0.1s ease-in border-width;
+}
+.profile:hover {
+  border-width: 12px;
+}
+hr {
+  margin: 128px 0px;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  color: var(--palette-main-5);
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+.experience-content {
+  padding: 24px 0px;
+}
+#education h3 {
+  padding-top: 24px;
+}
+#projects h3 {
+  padding-top: 32px;
+}
