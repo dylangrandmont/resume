@@ -17,6 +17,9 @@ body.flex {
 .flex {
   display: flex;
 }
+.flex.gap-8 {
+  gap: 8px;
+}
 .flex.gap {
   gap: 16px;
 }
@@ -86,4 +89,11 @@ section {
 }
 #projects h3 {
   padding-top: 32px;
+}
+
+.badge {
+  padding: 2px 4px;
+  border: 1px solid var(--palette-main-6);
+  border-radius: 4px;
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
 }
